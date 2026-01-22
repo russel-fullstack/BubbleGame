@@ -6,7 +6,7 @@ const bubbleMaker = () => {
   document.body.appendChild(bubble);
 
   bubble.classList.add("bubble");
-  const size = Math.random() * 200 + 150 + "px";
+  const size = Math.random() * 200 + 100 + "px";
   bubble.style.height = size;
   bubble.style.width = size;
 
